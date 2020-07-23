@@ -1,0 +1,126 @@
+      <style>
+
+        body{
+          font-family: Arial;
+          transition: background 1s;
+        }
+
+        .caixa1 {
+          padding-top: 30px;
+          padding-bottom: 50px;
+          background-image:url(background.png);
+        }
+
+        .caixa2 {
+          background-color:#1C1C1C ;
+          padding-bottom: 50px;
+        }
+        .conteiner{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+        
+        }
+
+        .caixa3 {
+          height: 300px;
+          text-align:center; 
+        }
+
+        h1 {
+          text-align: center;
+          color: gray;
+          font-size: 48px;
+
+        }
+
+      h2 {
+          color: lightblue;
+          text-align: center;
+          padding-top:60px;
+          padding-bottom:60px;
+          
+        }
+
+        p {
+          text-align: center;
+        }
+
+        .perfil{
+          background-color: #aaa;
+          border-radius: 100%;
+          height: 180px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+      .menu{
+        padding-right:30px;
+        text-align: right;
+      }
+      .linkmenu{
+        text-decoration: none;
+        color:lightblue;
+        margin-left:20px;
+        background-color: #1C1C1C;
+        border-radius: 5px;
+        font-size: 20px;
+
+        }
+      .linkmenu:hover{
+        color: darkmagenta;
+      }
+      .habilidades{
+        background-color: white;
+        border-radius: 30px;
+        width: 350px;
+        margin: 30px;
+        text-align: center;
+        color: gray;
+        padding-top:40px;
+        padding-bottom:40px;
+        padding-right: 10px;
+        padding-left: 10px; 
+        
+      }
+        .habilidades img{
+          height : 60px;
+          width:80px;
+          background-color: white;
+        }  
+
+      .coreh5{
+        color: blue;
+      }
+      .caixa3  h4{
+        text-align: center;
+        padding-bottom:15px;
+      }
+      .linkw{
+        color: white;
+        background-color: green;
+        padding-top:20px;
+        padding-right: 20px;
+        padding-bottom:20px;
+        padding-left:20px;
+        border-radius:30px;
+        text-decoration: none;
+        
+      } 
+      .outrosContatos{
+        padding-top:20px;
+      }
+      @media (max-width: 600px){
+        .menu{
+        display: none;
+        }
+      
+      .habilidades{
+        margin-left:10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+      }
+      
+     }
+    </style>
