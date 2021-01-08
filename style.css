@@ -1,4 +1,4 @@
-      <style>
+      
 
         body{
           font-family: Arial;
@@ -8,7 +8,7 @@
         .caixa1 {
           padding-top: 30px;
           padding-bottom: 50px;
-          background-image:url(background.png);
+          background-image:url(/images/background.png);
         }
 
         .caixa2 {
@@ -35,12 +35,12 @@
         }
 
       h2 {
-          color: lightblue;
+          color:  #00FFFF;
           text-align: center;
           padding-top:60px;
           padding-bottom:60px;
-          
-        }
+          font-size: 40px;
+      }
 
         p {
           text-align: center;
@@ -58,18 +58,19 @@
       .menu{
         padding-right:30px;
         text-align: right;
+        
       }
       .linkmenu{
         text-decoration: none;
-        color:lightblue;
+        color: #00FFFF;
         margin-left:20px;
         background-color: #1C1C1C;
-        border-radius: 5px;
+        padding: 12px;
         font-size: 20px;
 
         }
       .linkmenu:hover{
-        color: darkmagenta;
+        color: rgb(201, 145, 201);
       }
       .habilidades{
         background-color: white;
@@ -101,15 +102,25 @@
         color: white;
         background-color: green;
         padding-top:20px;
-        padding-right: 20px;
+        padding-right: 30px;
         padding-bottom:20px;
-        padding-left:20px;
-        border-radius:30px;
+        padding-left:30px;
+        border-radius:15px;
         text-decoration: none;
         
       } 
+      .linkw:hover{
+        color: rgb(99, 150,150);
+      }
       .outrosContatos{
         padding-top:20px;
+      }
+      .linkedin{
+        text-decoration: none;
+        color: hsl(207, 100%, 50%);
+      }
+      .linkedin:hover{
+        color: rgb(99, 150,150);
       }
       @media (max-width: 600px){
         .menu{
@@ -123,4 +134,4 @@
       }
       
      }
-    </style>
+  
