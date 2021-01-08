@@ -8,5 +8,5 @@
    - JS: usado uma função para dar modo noturno a página ao clicar na foto.
    
  ## Deploy da da aplicação com Repl.it
-  >https://minicursoRespondeianacarlags--anacarlagomez.repl.co
+  >https://perfilcurriculo.netlify.app/
   
